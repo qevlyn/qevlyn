@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Qevlyn — Research and Engineering</title>
+  <desc id="desc">A midnight-blue technical profile banner with a gold geometric Q emblem and a terminal-style panel describing research and engineering interests.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d1b"/>
+      <stop offset="0.55" stop-color="#101a32"/>
+      <stop offset="1" stop-color="#090f20"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4d58a"/>
+      <stop offset="1" stop-color="#c18b38"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#70d4df"/>
+      <stop offset="1" stop-color="#8aa9ff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9aaccb" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="24" fill="url(#grid)"/>
+  <path d="M0 22Q0 0 22 0H1258Q1280 0 1280 22" fill="none" stroke="#e7bd68" stroke-opacity=".7" stroke-width="2"/>
+  <circle cx="680" cy="40" r="2" fill="#e8c879" opacity=".8"/>
+  <circle cx="720" cy="82" r="1.5" fill="#8db9e8" opacity=".7"/>
+  <circle cx="590" cy="340" r="2" fill="#8db9e8" opacity=".6"/>
+  <circle cx="1240" cy="80" r="2" fill="#e8c879" opacity=".65"/>
+
+  <g transform="translate(74 76)">
+    <polygon points="112,0 210,56 210,168 112,224 14,168 14,56" fill="#0c1428" stroke="url(#gold)" stroke-width="2.2"/>
+    <polygon points="112,20 192,66 192,158 112,204 32,158 32,66" fill="none" stroke="#d8ad5e" stroke-opacity=".5" stroke-width="1"/>
+    <circle cx="112" cy="112" r="62" fill="#111d38" stroke="#e6c273" stroke-width="2"/>
+    <circle cx="112" cy="112" r="53" fill="none" stroke="#e6c273" stroke-opacity=".24" stroke-dasharray="3 7"/>
+    <text x="112" y="137" text-anchor="middle" font-family="Georgia,serif" font-size="78" font-weight="700" fill="url(#gold)">Q</text>
+    <path d="M112 -12V-2M112 226V238M2 112H12M212 112H224" stroke="#e8c879" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="112" cy="-12" r="4" fill="#e8c879"/>
+    <circle cx="112" cy="238" r="4" fill="#e8c879"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="340" y="126" fill="#d8b66e" font-size="13" letter-spacing="4">INDEPENDENT DEVELOPER · RESEARCH NOTES</text>
+    <text x="336" y="196" fill="#f2f5fb" font-size="62" font-weight="700" letter-spacing="2">QEVLYN</text>
+    <text x="340" y="238" fill="#b9c7df" font-size="19">Machine learning · Systems · Reverse engineering</text>
+    <path d="M340 270H690" stroke="#d9b66b" stroke-opacity=".6" stroke-width="1.5"/>
+    <text x="340" y="304" fill="#8294b3" font-size="14" letter-spacing="1.3">BUILD WITH CURIOSITY.</text>
+    <text x="340" y="329" fill="#8294b3" font-size="14" letter-spacing="1.3">VERIFY WITH EVIDENCE.</text>
+  </g>
+
+  <g transform="translate(754 48)" font-family="Consolas, 'Courier New', monospace">
+    <rect x="0" y="0" width="474" height="324" rx="16" fill="#0a1122" stroke="#354563" stroke-width="1.4"/>
+    <path d="M0 48H474" stroke="#354563" stroke-width="1"/>
+    <circle cx="24" cy="24" r="5" fill="#f17b78"/>
+    <circle cx="44" cy="24" r="5" fill="#e9bd63"/>
+    <circle cx="64" cy="24" r="5" fill="#69c98a"/>
+    <text x="94" y="29" fill="#9fb0cc" font-size="12" letter-spacing="1.4">QEVLYN / LAB-CONSOLE</text>
+    <text x="28" y="82" fill="#77d5a0" font-size="13">$ focus --primary</text>
+    <text x="28" y="108" fill="#d7e0f0" font-size="14">ARC-AGI-2 · model behavior audits</text>
+    <path d="M28 126H444" stroke="#273550" stroke-width="1"/>
+    <text x="28" y="158" fill="#77d5a0" font-size="13">$ focus --systems</text>
+    <text x="28" y="184" fill="#d7e0f0" font-size="14">Local game servers · protocol analysis</text>
+    <path d="M28 202H444" stroke="#273550" stroke-width="1"/>
+    <text x="28" y="234" fill="#77d5a0" font-size="13">$ method --default</text>
+    <text x="28" y="260" fill="#d7e0f0" font-size="14">Build <tspan fill="#e5bd68">→</tspan> Measure <tspan fill="#e5bd68">→</tspan> Verify</text>
+    <rect x="28" y="284" width="112" height="22" rx="5" fill="#1c2b43"/>
+    <rect x="148" y="284" width="132" height="22" rx="5" fill="#1c2b43"/>
+    <rect x="288" y="284" width="156" height="22" rx="5" fill="#1c2b43"/>
+    <text x="84" y="299" text-anchor="middle" fill="#e8c879" font-size="10" letter-spacing="1">RESEARCH</text>
+    <text x="214" y="299" text-anchor="middle" fill="#83d4dc" font-size="10" letter-spacing="1">ENGINEERING</text>
+    <text x="366" y="299" text-anchor="middle" fill="#a9b8ef" font-size="10" letter-spacing="1">REPRODUCIBILITY</text>
+  </g>
+</svg>
